@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RandevuTakip.exe" version="1.0.0.0" publicKeyToken="a5b5faef40ae9231" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RandevuTakip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RandevuTakip.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RandevuTakip.exe" size="12240">
+      <assemblyIdentity name="RandevuTakip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Hpd8dAiwJjYC2KEgFctVufpHeKXNjPYGeeoXfW8MzlE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RandevuTakip.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-EPC2QQE\Pc" issuerKeyHash="74ba99f800f40d27bb1bcceb0000f441eff99eb2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KBAR9FH701tnRjEueoZc5F0HdqNUdMEDFYMedkLJBYM=</DigestValue></Reference></SignedInfo><SignatureValue>LSqX6UG0664ntKrxTcyO8qOz7thY4aPvnf9YFGyepPesBrA51W3HIhWjGhdvGA7AgkGZ+nWwMkO3Nk/ept+Myo1xih7ypW+k90tx4Lbx547MTbnnC0nqka+FuZ4XTZjWYJsSh+8d0GUjwyKh4edg0jXZENQlgWEH0nSzxYX1o8c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xT9dadDSW10Qh0FItn4cfQhMRUURMy+9agNa6BOAVkp3AT4BQ9TpmMASXGDSdHtL6k3RRYTOiHPXFJ+xGU8BHIeY8wU79abBiRADTV21B+CdUeRYZvNWE8wlOmpKJRLM4VpSg3u/8Q3YuHctA0ZLe0yQNuftEWLsLa4+TtSFCOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8305c942761e831503c17454a376075de45c867a2e3146675bd3fb51f4111028" Description="" Url=""><as:assemblyIdentity name="RandevuTakip.exe" version="1.0.0.0" publicKeyToken="a5b5faef40ae9231" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-EPC2QQE\Pc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0K6F0hn13mL4/zq7Jf6TNall+IVdVh9JdglNdSozSYg=</DigestValue></Reference></SignedInfo><SignatureValue>qTzLtu/L7TxmdBpG4dqMWBHekP0wZy7w35jug0ahj7VrVF26vcdcsinT7AZVX8gm+WFmMsKVSAyebxbeJ2iZ2jMfL5yoSWMaM8OuxMiDo5y5HQV74PzoBDnm2QYoaVLhCb/O+SqkTRJibsJqiDSp5v+CCfE3EvObvpdprDaurMY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xT9dadDSW10Qh0FItn4cfQhMRUURMy+9agNa6BOAVkp3AT4BQ9TpmMASXGDSdHtL6k3RRYTOiHPXFJ+xGU8BHIeY8wU79abBiRADTV21B+CdUeRYZvNWE8wlOmpKJRLM4VpSg3u/8Q3YuHctA0ZLe0yQNuftEWLsLa4+TtSFCOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQHcFWthMrtr9MRIel2kndazANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEUAUABDADIAUQBRAEUAXABQAGMwHhcNMjUwNjE0MjEzNDMwWhcNMjYwNjE1MDMzNDMwWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEUAUABDADIAUQBRAEUAXABQAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMU/XWnQ0ltdEIdBSLZ+HH0ITEVFETMvvWoDWugTgFZKdwE+AUPU6ZjAElxg0nR7S+pN0UWEzohz1xSfsRlPARyHmPMFO/WmwYkQA01dtQfgnVHkWGbzVhPMJTpqSiUSzOFaUoN7v/EN2Lh3LQNGS3tMkDbn7RFi7C2uPk7UhQjhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAO2tENUAIKlFplvwn6jOREp/Jo5cNjXySaw1CtyF7Ruw3IXpZNT74W7FsY9pIbdzqlpYilczZRs1NHBqjyS4ygSjsFaFLrIySLfZqnLpEpNnfEhSYyXXuAj+LUH7PFSoKpoPkTwENusBsKYqsaTJXWse/g1ga+LyJqaASfjwAsxY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,15 @@
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\bin\Debug\RandevuTakip.exe.config
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\bin\Debug\RandevuTakip.exe
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\bin\Debug\RandevuTakip.pdb
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.csproj.AssemblyReference.cache
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.Form1.resources
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.Properties.Resources.resources
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.csproj.GenerateResource.cache
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.exe
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.pdb
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.exe.config
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\bin\Debug\RandevuTakip.exe.manifest
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\bin\Debug\RandevuTakip.application
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.exe.manifest
+C:\Users\Pc\source\repos\RandevuTakip\RandevuTakip\obj\Debug\RandevuTakip.application
